@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> TIME CALCULATION </title> 
+</head>
+
+<body>
+
+<p> click the button to set the time automatically</p>
+
+<button   onclick="myfuntion1()"> WORK TIME </button>
+
+
+<script>
+	function myfunction1()
+	Data date=new Date();
+	Long time=(long)(((((date1.getHours()*60)+date.getminutes())*60)+date.getseconds())*1000);
+	var currenttime=time+28,200,000;
+        var beforetime_out=currenttime-60000;
+	console.log("1 min left for system shutdown");
+	var currenttime=time+28,200,000;
+	console.log(" TIME UP ");
+</script>
+
+
+<button onclick="myfunction2()"> SLEEP TIME </button>
+
+ 
+<script>
+	function myfunction2()
+	Data date=new Date();
+	Long time=(long)(((((date1.getHours()*60)+date.getminutes())*60)+date.getseconds())*1000)+25,200,000;
+	console.log(" TIME UP");
+	var snooze=time+60000;
+	console.log(" ALREADY LATE ");
+</script>
+
+</body>
+</html>
